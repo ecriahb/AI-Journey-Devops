@@ -1,23 +1,25 @@
-# AI Journey — DevOps to GenAI / MLOps
+# 12-Phase Agentic AI for DevOps Journey
 
-This repository organizes the complete Prepzee Generative AI & ML course by **subject → course module → lesson**.
+This branch reorganizes the learning path around one goal: **becoming an Agentic AI / MLOps engineer by leveraging existing DevOps expertise**.
 
-## Structure
+```text
+01 Python
+02 Statistics + ML Fundamentals
+03 Deep Learning Basics
+04 LLM + Prompt Engineering
+05 RAG + Embeddings + Vector DB
+06 LLM APIs + Tool Calling
+07 MCP
+08 Agents + LangChain
+09 LangGraph
+10 Multi-Agent
+11 MLOps
+12 Agentic DevOps
+13 Final Project
+```
 
-- `01-Python/` — Modules 1–5
-- `02-Statistics/` — Module 6
-- `03-Machine-Learning/` — Modules 7–10
-- `04-Deep-Learning/` — Modules 11–15
-- `05-Generative-AI/` — Modules 16–20
-- `06-Agentic-AI/` — Modules 21–23
-- `07-MLOps/` — Modules 24–28
-- `08-Career/` — Module 29
-- `08-Projects/` — course projects
+### Rule for this repository
+One concept should have one canonical home. Later phases may **use/reference** an earlier concept instead of copying the same theory again.
 
-Each course module will contain the actual video lessons as they are processed from transcripts.
-
-## Learning workflow
-
-`Course PDF → Module → Video Lesson → Transcript → Easy Hinglish Notes → Code/Practice → Interview Questions → Quick Revision`
-
-The course curriculum source is the uploaded Prepzee Generative AI & ML curriculum PDF.
+### Final outcome
+Build an AI DevOps Troubleshooting / RCA Agent that can collect trusted DevOps evidence, investigate failures, produce structured RCA, recommend remediation, and keep human approval for risky actions.
